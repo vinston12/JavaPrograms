@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/res/Cin itp/Cin itp.iml" filepath="$PROJECT_DIR$/res/Cin itp/Cin itp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flappyBirdGame.iml" filepath="$PROJECT_DIR$/flappyBirdGame.iml" />
+    </modules>
+  </component>
+</project>

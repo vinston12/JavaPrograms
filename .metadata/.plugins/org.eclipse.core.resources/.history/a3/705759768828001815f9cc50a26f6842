@@ -1,0 +1,27 @@
+package projektcikgierka;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class mno {
+
+	public static void main(String[] args) {
+		Scanner skaner = new Scanner(System.in);
+		boolean	isNotCorrect = true;
+		do {
+		try {
+			System.out.println("Wpisz dlugosc swojego chuja(w cm)");
+			int dlugoscChuja = skaner.nextInt();
+			System.out.println("Wpisz nazwe swojego chuja");
+			String nazwaChuja = skaner.next();
+			System.out.println("Nazwales swojego kutasa " + nazwaChuja + ", i ma on " + dlugoscChuja + "cm");
+			isNotCorrect = false;
+		} catch (InputMismatchException ae) {
+			System.err.println("Miales podac dlugosc chuja w cm!!");
+			skaner.nextLine();
+			System.out.println("Podaj jeszcze raz");
+		}
+		}while(isNotCorrect);
+		skaner.close();
+	}
+}

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class projekt1 {
+	public static void main(String[] args) {
+			
+		int wartosc = 1;
+			
+			boolean loop = wartosc < 10;
+		
+			while(wartosc < 1)
+			{
+				System.out.println("Hello");
+				wartosc = wartosc + 1;
+			}
+	
+	}
+	
+}

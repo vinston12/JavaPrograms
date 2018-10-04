@@ -1,0 +1,38 @@
+package Coding;
+
+import java.util.Scanner;
+
+public class EncryptionDecryption {
+public static void main(String[] args) {
+	Scanner skaner = new Scanner(System.in);
+	int tab[] = new int[5];
+	String abc = "alaa";
+	for (int i = 0; i<tab.length-1;i++) {
+	char cba = abc.charAt(i);
+	tab[i] = cba;
+	System.out.println(tab[i]);
+	
+	}
+	System.out.println();
+	
+	for (int i = tab.length-1; i>0;i--) {
+		System.out.println(tab[i]);
+	}
+	
+
+}
+}
+/*
+Scanner skaner = new Scanner(System.in);
+String napis;
+String bufor;
+System.out.println("Wpisz wyraz: ");
+napis = skaner.next();
+int n = napis.length();
+int tab[] = new int[n];
+for (int i = 0;i<napis.length();i++) {
+	char letters = napis.charAt(i);
+	tab[i] = letters + 2;
+	System.out.println(tab[i]);
+}
+*/

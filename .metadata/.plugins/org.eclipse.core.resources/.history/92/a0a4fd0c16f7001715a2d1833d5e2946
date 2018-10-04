@@ -1,0 +1,16 @@
+
+public class Zadanie2 {
+public static void main(String[] args) {
+	
+	int wartosc = 7;
+	
+	int wartosci[];
+	
+	wartosci = new int[3];
+	
+	wartosci[0] = 1;
+	 
+	System.out.println(wartosci[0]);
+
+}
+}

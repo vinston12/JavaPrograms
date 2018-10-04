@@ -1,0 +1,11 @@
+
+public class me 
+{
+	public static void main(String[] args) 
+	{
+		String me,everything;
+	 String mylove;
+	me + mylove = everything;
+	 System.out.println("");
+	}
+}

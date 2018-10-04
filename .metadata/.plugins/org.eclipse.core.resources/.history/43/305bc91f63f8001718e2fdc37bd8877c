@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+class Osoba {
+		// Instance variables ( data or "state")
+	String name;
+	int age;
+	
+	// Classes can contain
+		//1.Data
+		//2.Subroutines (methods)
+	void speak()
+	{
+		System.out.println("My name is: " + name + ", " + "I am "+ age);
+	}
+	void hello()
+	{
+		System.out.println("Hello there!");
+	}
+	}
+
+
+public class zadanie5
+{
+	private static Scanner wpisz;
+
+	public static void main(String[] args)
+		{
+		wpisz = new Scanner(System.in);
+		Osoba osoba1 = new Osoba();
+		Osoba osoba2 = new Osoba();
+		osoba1.hello();
+		System.out.println("Wpisz swoje imie: ");
+		osoba1.name = wpisz.nextLine();
+		
+		
+		System.out.println("Wpisz swoje imie: ");
+		osoba2.name = wpisz.nextLine();
+		System.out.println("Wpisz Ile masz lat: ");
+		osoba2.age = wpisz.nextInt();
+		
+		osoba1.speak();
+		osoba2.speak();
+		
+	    }
+}
+

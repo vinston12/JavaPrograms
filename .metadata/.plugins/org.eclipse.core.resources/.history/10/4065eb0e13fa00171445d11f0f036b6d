@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+class data {
+	int dni;
+	int miesiac;
+	int rok;
+	void mm()
+	{
+		System.out.println("Data: " + dni + "-" + miesiac + "-" + rok);
+	}
+}
+public class zadanie7 {
+public static void main(String[] args) {
+	Scanner wpisz = new Scanner(System.in);
+	data dni = new data();
+	data miesiac = new data();
+	data rok = new data();
+	 
+	for (int i = 0; i<10; i++)
+	{
+		System.out.println("Wpisz dzieñ");
+		dni.dni = wpisz.nextInt();
+		System.out.println("Wpisz miesi¹c");
+		miesiac.miesiac = wpisz.nextInt();
+		System.out.println("Wpisz rok");
+		rok.rok=wpisz.nextInt();
+		dni.mm();
+		
+	}
+	dni.mm();
+	
+	
+}
+}

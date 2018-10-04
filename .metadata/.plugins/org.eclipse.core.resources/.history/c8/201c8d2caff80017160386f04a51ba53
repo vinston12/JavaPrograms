@@ -1,0 +1,10 @@
+
+public class me 
+{
+	public static void main(String[] args) 
+	{
+		String me,everything;
+
+	 System.out.println(me + mylove + "=" + everything);
+	}
+}

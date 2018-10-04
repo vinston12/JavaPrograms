@@ -1,0 +1,15 @@
+package projektcikgierka;
+
+import java.util.Scanner;
+
+public class mno {
+public static void main(String[] args) {
+	Scanner skaner = new Scanner(System.in);
+	System.out.println("Wprowadz licznik");
+	int l = skaner.nextInt();
+	System.out.println("Wprowadz mianownik");
+	int m = skaner.nextInt();
+	
+	System.out.println("Wynik dzielenia " + l + " / " + m + " = " + l/m);
+}
+}

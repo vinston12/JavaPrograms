@@ -1,0 +1,16 @@
+package meta3;
+
+import javax.swing.JFrame;
+
+public class MojeOkienko extends JFrame {
+	public MojeOkienko() {
+		setSize(1500,1500);
+		setTitle("Moje pierwsze okienko");
+	}
+	public static void main(String[] args) {
+		MojeOkienko okienko = new MojeOkienko();
+		okienko.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		okienko.setVisible(true);
+	}
+
+}

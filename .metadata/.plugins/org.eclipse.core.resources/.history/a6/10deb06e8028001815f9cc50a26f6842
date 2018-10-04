@@ -1,0 +1,34 @@
+package projektcikgierka;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class mno {
+	static Scanner skaner = new Scanner(System.in);
+	public static void main(String[] args) {
+		boolean isNotCorrect = true;
+		do {
+			try {
+				
+				System.out.println("Wprowadz licznik");
+				int l = skaner.nextInt();
+				System.out.println("Wprowadz mianownik");
+				int m = skaner.nextInt();
+				isNotCorrect = false;
+
+				System.out.println("Wynik dzielenia " + l + " / " + m + " = " + l / m);
+			} catch (ArithmeticException ae) {
+				// ae.printStackTrace();
+				System.err.println("Nie dzieli siê przez 0 !!!");
+				skaner.nextLine();
+				System.out.println("WPROWADZ DANE JESZCZE RAZ");
+			} catch (InputMismatchException be) {
+				// be.printStackTrace();
+				System.err.println("Wprowadziles niepoprawny znak");
+				System.out.println("WPROWADZ DANE JESZCZE RAZ");
+			}
+
+		} while (isNotCorrect);
+		skaner.close();
+	}
+}

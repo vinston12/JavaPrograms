@@ -1,0 +1,24 @@
+package projektcikgierka;
+
+import java.util.Scanner;
+
+public class mno {
+public static void main(String[] args) {
+	try {
+		Scanner skaner = new Scanner(System.in);
+		System.out.println("Wprowadz licznik");
+		int l = skaner.nextInt();
+		System.out.println("Wprowadz mianownik");
+		int m = skaner.nextInt();
+		
+		System.out.println("Wynik dzielenia " + l + " / " + m + " = " + l/m);
+	} catch (ArithmeticException ae) {
+		//ae.printStackTrace();
+		System.out.println("Nie dzieli siê przez 0 !!!");
+		
+	} catch ( ae) {
+		//ae.printStackTrace();
+		System.out.println("Nie dzieli siê przez 0 !!!");
+	}
+}
+}

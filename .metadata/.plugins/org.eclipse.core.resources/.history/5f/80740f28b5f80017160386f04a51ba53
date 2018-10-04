@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+class dziennik
+{
+	String imie;
+	int wiek;
+	String obecnoœæ;
+}
+public class zadanie6
+{
+	public static void main(String[] args)
+		{
+			Scanner wpisz = new Scanner(System.in);
+			System.out.println("Witamy w dzienniku elektroniczym dla nauczycieli!");
+			System.out.println("-------------------------------------------------");
+			System.out.println("Zaloguj siê do swojego konta");
+			String nazwa;
+			String haslo;
+			do
+			
+				{
+				System.out.print("Login: ");
+			nazwa = wpisz.nextLine();
+			System.out.println();
+			System.out.print("Has³o: ");
+			haslo = wpisz.nextLine();
+			
+			System.out.println("Spróbuj ponownie!");
+			
+			}while ((nazwa != "Pawlacz123" )&&(haslo != "JP2GMD"));
+			System.out.println("Witamy w systemie!");
+		}
+			
+		}

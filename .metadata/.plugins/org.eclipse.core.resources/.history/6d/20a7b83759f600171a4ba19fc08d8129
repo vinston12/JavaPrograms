@@ -1,0 +1,14 @@
+public class dziala {
+	public static void main(String[] args) {
+			
+		int wartosc = 1;
+		
+			while(wartosc < 1)
+			{
+				System.out.println("Hello");
+				wartosc = wartosc + 1;
+			}
+	
+	}
+	
+}

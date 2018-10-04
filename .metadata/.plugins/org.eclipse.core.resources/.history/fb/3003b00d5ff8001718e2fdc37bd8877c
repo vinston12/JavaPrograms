@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+class Osoba {
+		// Instance variables ( data or "state")
+	String name;
+	int age;
+	
+	// Classes can contain
+		//1.Data
+		//2.Subroutines (methods)
+	
+	}
+	
+
+public class zadanie5
+{
+	public static void main(String[] args)
+		{
+		
+		
+		Osoba osoba2 = new Osoba();
+		osoba2.name = "Dominik Bober";
+		osoba2.age = 17;
+		System.out.println(osoba2.name);
+		System.out.println(osoba2.age);
+		
+	    }
+}
+
